@@ -1,24 +1,19 @@
 <script>
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
   import "./app.css"
+  import "https://kit.fontawesome.com/eb07830743.js"
 </script>
 
 <main>
-  <img src={logo} alt="Svelte Logo" />
-  <h1>Hello world!</h1>
-
-  <Counter />
-  
-  <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-
-  <p class="w-2">
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
+  <nav class="bg-white px-2 sm:px-4 py-2.5">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="https://plcltd.github.io" class="flex items-center" target="_blank">
+        <h1 class="text-xl font-bold">BlueSpruce.js</h1>
+      </a>
+      <div class="flex items-center">
+        <a href="https://github.com/ptdllc/BlueSpruce.js"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </nav>
 </main>
 
 <style></style>

@@ -1,5 +1,11 @@
-# bluespruce
+# BlueSpruce.js
 A simple web development framework
+
+<div align="center">
+    <img src="assets/bluesprucejs.icon.png" alt="logo">
+    <h1>BlueSpruce.js</h1>
+    <p>A simple web development framework</p>
+</div>
 
 ## Tools
 * Vite
