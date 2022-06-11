@@ -1,8 +1,5 @@
-# BlueSpruce.js
-A simple web development framework
-
 <div align="center">
-    <img src="assets/bluesprucejs.icon.png" alt="logo">
+    <img src="assets/bluesprucejs.icon.png" alt="logo" width="50">
     <h1>BlueSpruce.js</h1>
     <p>A simple web development framework</p>
 </div>
