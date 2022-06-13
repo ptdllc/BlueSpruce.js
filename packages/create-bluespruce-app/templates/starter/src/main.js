@@ -1,4 +1,4 @@
-import App from "./App.svelte";
+import App from "./main.svelte";
 import "./app.css";
 import 'flowbite';
 
