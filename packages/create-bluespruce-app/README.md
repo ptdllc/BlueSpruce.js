@@ -10,12 +10,15 @@
 * TailwindCSS
 * Flowbite
 
-## Templates:
-| Single Page                 |   |
-| --------------------------- | - |
-| **JavaScript** | **TypeScript** |
-| starter        | ts-starter     |
-| blank          | ts-blank       |
+## Available Templates:
+| Single Page                 |   | Multi Page                  |   |
+| --------------------------- | - | --------------------------- | - |
+| **JavaScript** | **TypeScript** | **JavaScript** | **TypeScript** |
+| starter        | ts-starter     |                | ts-router      |
+| blank          | ts-blank       |                |                |
+|                |                |                |                |
+
+Each template has it's pros and cons, but the one for recommended for most developers is ts-router.
 
 ## About
 The idea behind bluespruce is to make a simple build system for Potabi Technological Developments, LLC to make better websites for less effort.

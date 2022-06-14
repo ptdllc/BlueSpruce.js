@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "create-bluespruce-app",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create better websites with BlueSpruce.js",
   "main": "create-bluespruce-app.js",
   "scripts": {

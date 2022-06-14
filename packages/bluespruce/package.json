@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "bluespruce",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "BlueSpruce command line tool",
   "main": "bluespruce.js",
   "scripts": {

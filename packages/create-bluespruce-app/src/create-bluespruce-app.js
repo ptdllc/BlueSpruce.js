@@ -28,7 +28,8 @@ inquirer
             "Starter",
             "Blank",
             "TS-Starter",
-            "TS-Blank"
+            "TS-Blank",
+            "TS-Router"
         ]
     }
 ])
@@ -51,6 +52,7 @@ function createBlueSpruceApp(name, template){
         case "Blank": templateURL = "../templates/blank"; break;
         case "TS-Starter": templateURL = "../templates/ts-starter"; break;
         case "TS-Blank": templateURL = "../templates/ts-blank"; break;
+        case "TS-Router": templateURL = "../templates/ts-router"; break;
     }
     let templateDir = path.resolve(__dirname, templateURL)
     let projectDir = path.resolve(name)
