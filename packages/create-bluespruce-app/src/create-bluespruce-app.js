@@ -26,7 +26,9 @@ inquirer
         message: chalk.blue("Pick a template"),
         choices: [
             "Starter",
-            "Blank"
+            "Blank",
+            "TS-Starter",
+            "TS-Blank"
         ]
     }
 ])
@@ -43,8 +45,13 @@ inquirer
 
 function createBlueSpruceApp(name, template){
     console.log(`Creating project "${name}" using BlueSpruce template "${template}"`)
-    let templateURL = "../templates/starter"
-    if (template == "Blank"){ templateURL = "../templates/blank" }
+    let templateURL = "../templates/starter" // Set Starter as default
+    switch (template){
+        case "Starter": templateURL = "../templates/starter"; break;
+        case "Blank": templateURL = "../templates/blank"; break;
+        case "TS-Starter": templateURL = "../templates/ts-starter"; break;
+        case "TS-Blank": templateURL = "../templates/ts-blank"; break;
+    }
     let templateDir = path.resolve(__dirname, templateURL)
     let projectDir = path.resolve(name)
     fs.mkdir(projectDir, (err) => {
