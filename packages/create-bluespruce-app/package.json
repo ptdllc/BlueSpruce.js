@@ -1,8 +1,13 @@
 {
   "type": "module",
   "name": "create-bluespruce-app",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Create better websites with BlueSpruce.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptdllc/BlueSpruce.js",
+    "directory": "packages/create-bluespruce-app"
+  },
   "main": "create-bluespruce-app.js",
   "scripts": {
     "test": "./src/create-bluespruce-app.js"
@@ -14,6 +19,7 @@
     "chalk": "^5.0.1"
   },
   "dependencies": {
+    "degit": "^2.8.4",
     "fs-extra": "^10.1.0",
     "inquirer": "^8.2.4"
   },
